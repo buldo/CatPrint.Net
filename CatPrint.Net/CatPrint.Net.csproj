@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="InTheHand.BluetoothLE" Version="4.0.33" />
+  </ItemGroup>
+
 </Project>

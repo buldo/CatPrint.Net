@@ -9,10 +9,17 @@
 
   <ItemGroup>
     <PackageReference Include="InTheHand.BluetoothLE" Version="4.0.33" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CatPrint.Net\CatPrint.Net.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Lenna.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
