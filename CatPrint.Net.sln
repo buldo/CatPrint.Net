@@ -5,9 +5,14 @@ VisualStudioVersion = 17.6.33606.364
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatPrint.Net.Demo", "CatPrint.Net.Demo\CatPrint.Net.Demo.csproj", "{53EB1FCD-74F8-4847-8820-F56566FDAE72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatPrint.Net", "CatPrint.Net\CatPrint.Net.csproj", "{C8A9EE75-4D29-45A4-88E1-976A5E0097BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatPrint.Net", "CatPrint.Net\CatPrint.Net.csproj", "{C8A9EE75-4D29-45A4-88E1-976A5E0097BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatPrint.Net.Tests", "CatPrint.Net.Tests\CatPrint.Net.Tests.csproj", "{98588186-06C9-4981-97C0-9B0E5B0D0D78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatPrint.Net.Tests", "CatPrint.Net.Tests\CatPrint.Net.Tests.csproj", "{98588186-06C9-4981-97C0-9B0E5B0D0D78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE618830-1B88-4F3C-8A42-BEA420B09AA3}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
