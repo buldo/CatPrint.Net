@@ -10,4 +10,8 @@
     <PackageReference Include="InTheHand.BluetoothLE" Version="4.0.33" />
   </ItemGroup>
 
+  <ItemGroup>
+    <InternalsVisibleTo Include="CatPrint.Net.Tests" />
+  </ItemGroup>
+
 </Project>

@@ -22,7 +22,7 @@ await printer.InitAsync();
 
 var commandsFactory = new CommandsFactory();
 
-await printer.SendAsync(commandsFactory.CreateSetQuality(0x34));
+await printer.SendAsync(commandsFactory.CreateSetQuality(0x32));
 await printer.SendAsync(commandsFactory.CreateSetMode(Mode.Image));
 
 using Image image = Image.Load("Lenna.png");
@@ -36,7 +36,8 @@ var imageLines = imageBytes.Chunk(l8Image.Width);
 foreach (var imageLine in imageLines)
 {
     var line = imageLine.Select(b => b != 255).ToList();
-    var command = commandsFactory.CreatePrintLine(line);
+    //var command = commandsFactory.CreatePrintLine(line);
+    var command = commandsFactory.CreatePrintLineCompressed(line);
     await printer.SendAsync(command);
 }
 
